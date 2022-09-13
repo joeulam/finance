@@ -1,12 +1,29 @@
 
 #background1{
 /* Rectangle 10 */
-
-
-position: absolute;
-width: 1165px;
-height: 711px;
-
 background: #252424;
-border-radius: 25px;
+
+}
+
+#welcome{
+    color:white;
+}
+
+#login{
+    color:#FFFFFF;
+    font-size: larger;
+    font-weight: 800;
+}
+#subtext{
+    color: #979797;
+}
+
+#midblock{
+    width: 554.09px;
+    height: 646.82px;
+    background-color: #000000;
+    border-radius: 5%;
+    margin: auto;
+    margin-top: 2%;
+
 }
