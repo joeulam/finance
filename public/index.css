@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
 #background1{
 /* Rectangle 10 */
 background: #252424;
@@ -10,7 +12,7 @@ background: #252424;
     text-align: center;
     font-size: 40px;
     font-weight: bold;
-    font-family: sofia-pro, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin-top: 2%;
     width: 300px;
     vertical-align: center;
@@ -21,13 +23,13 @@ background: #252424;
 #login{
     color:#FFFFFF;
     font-weight: 900;
-    font-family: sofia-pro, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin-bottom: 10px;
     font-size: 30px;
 }
 #subtext{
     color: #979797;
-    font-family: sofia-pro, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 
 }
 
@@ -38,7 +40,7 @@ background: #252424;
     border-radius: 5%;
     margin: auto;
     margin-top: 2%;
-    font-family: sofia-pro, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 
 
 }
@@ -49,4 +51,86 @@ background: #252424;
 
 #white{
     color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 4%;
+    font-size: 24px;
+
+
 }
+#email{
+ border-radius: 13px;
+ height: 31px;
+ width: 305px;
+ margin-left: 101px;
+ margin-bottom: 6%;
+}
+
+#password{
+    border-radius: 13px;
+    height: 31px;
+    width: 305px;
+    margin-left: 53px;
+    margin-bottom: 4%;
+
+}
+hr.solid{
+    border: 0;
+    border-top: 2px solid #5C5A5A;
+border-radius: 25px;
+width: 510px;
+}
+
+#rem{
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 25%;
+    margin-left: 4%;
+
+
+
+}
+#remme{
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#remind{
+
+}
+
+.remind input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+
+  #loginbut{
+    font-family: 'Open Sans', sans-serif;
+    width: 100px;
+    height: 40px;
+    border-radius: 25px;
+    margin-left: 260px;
+    background: #424242;
+    color: #FFFFFF;
+    font-size: 19px;
+  }
+
+  #otherlog{
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #000000;
+    margin-top: 2%;
+
+  }
+
+  .solids{
+    border: 0;
+    border-top: 2px solid #5C5A5A;
+border-radius: 25px;
+width: 210px;
+margin-top: 10%;
+  }
+
+  
