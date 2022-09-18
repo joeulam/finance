@@ -4,6 +4,7 @@
 #background1{
 /* Rectangle 10 */
 background: #252424;
+z-index: -1000;
 
 }
 
@@ -121,16 +122,28 @@ width: 510px;
     text-align: center;
     color: #FFFFFF;
     background-color: #000000;
-    margin-top: 2%;
-
+    margin: auto;
+    z-index: 100;
+    width: 100px;
   }
 
-  .solids{
+  #solids{
     border: 0;
     border-top: 2px solid #5C5A5A;
 border-radius: 25px;
-width: 210px;
-margin-top: 10%;
-  }
+width: 110px;
+position: absolute;
+margin-left: 133px;
+margin-top: 12px;
+}
+#solidsleft{
+    border: 0;
+    border-top: 2px solid #5C5A5A;
+border-radius: 25px;
+width: 110px;
+position: absolute;
+margin-left: 310px;
+margin-top: -9px;
+}
 
   
