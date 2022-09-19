@@ -177,4 +177,10 @@ margin-top: -9px;
         transform: scale(1.2);
     }
 
-  
+  #donthave{
+    color:#757575;
+    font-family: 'Open Sans', sans-serif;
+    margin: auto;
+    width: fit-content;
+    margin-top: 10px;
+  }
