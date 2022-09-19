@@ -116,6 +116,10 @@ width: 510px;
     background: #424242;
     color: #FFFFFF;
     font-size: 19px;
+    transition: transform .6s;
+  }
+  #loginbut:hover{
+    transform: scale(1.2);
   }
 
   #otherlog{
@@ -182,5 +186,12 @@ margin-top: -9px;
     font-family: 'Open Sans', sans-serif;
     margin: auto;
     width: fit-content;
-    margin-top: 10px;
+    margin-top: 20px;
   }
+  #create{
+    cursor: pointer;
+    transition: transform .5s;
+  }
+ #create:hover{
+    transform: scale(1.2);
+ }
