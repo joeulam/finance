@@ -173,7 +173,8 @@ margin-top: -9px;
         border-radius: 25px;
         margin: auto;
         margin-top: 20px;
-        user-select: none
+        user-select: none;
+        cursor:pointer;
     }
 
     #size:hover{
